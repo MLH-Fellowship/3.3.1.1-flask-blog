@@ -36,7 +36,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## Installation for Mac OS: Set up Python's default version from 2.7 to 3.x on OS X
+## Installation for Mac OS: Set up Python's default version from 2.7 to 3.x
 
 Open ~/.bash_profile file:
 
