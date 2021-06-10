@@ -1995,15 +1995,14 @@ a.theme-link:hover {
 
 .project-card {
     border-radius: 0;
-    background: #fafafa;
-    border: 1px solid rgba(0, 0, 0, 0.025);
+    border: 1px solid rgba(1, 1, 1, 1.788);
     position: relative;
     height: 100%
 }
 
 .project-card:hover .link-mask {
     visibility: visible;
-    background: rgba(41, 41, 41, 0.4)
+    background: rgba(11, 10, 10, 0.726)
 }
 
 .project-card:hover .link-mask-text {
