@@ -1,6 +1,6 @@
 # Flask-Blog
 ![GitHub all releases](https://img.shields.io/github/downloads/MLH-Fellowship/3.3.1.1-flask-blog/total?style=flat-square&logo=appveyor)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MLH-Fellowship/3.3.1.1-flask-blog?style=flat-square&logo=appveyor)
+![GitHub code size in bytes ](https://img.shields.io/github/languages/code-size/MLH-Fellowship/3.3.1.1-flask-blog?style=flat-square&logo=appveyor)
 ![GitHub](https://img.shields.io/github/license/MLH-Fellowship/3.3.1.1-flask-blog?style=flat-square&logo=appveyor)
 ![GitHub issues](https://img.shields.io/github/issues/MLH-Fellowship/3.3.1.1-flask-blog?style=flat-square&logo=appveyor)
 ![GitHub forks](https://img.shields.io/github/forks/MLH-Fellowship/3.3.1.1-flask-blog?style=flat-square&logo=appveyor)
