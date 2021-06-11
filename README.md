@@ -6,12 +6,10 @@
 ![GitHub forks](https://img.shields.io/github/forks/MLH-Fellowship/3.3.1.1-flask-blog?style=flat-square&logo=appveyor)
 
 ## Introduction
-Add introduction and description here. 
 Minimal Flask template to get started on your blog application for MLH Fellowship Production Engineering track.
 
 ## Visuals
-Add some screenies of the website :)   
-Embed the video here as well!
+<img src="./app/static/img/tut1.png" alt="Image 1" width=700> <br/>
 
 ## Prerequisites and Requirements
 Flask version 2.0.1   
