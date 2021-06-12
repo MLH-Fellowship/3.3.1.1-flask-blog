@@ -9,81 +9,11 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #292929;
-    background-color: #fff
-}
-
-
-/* download bootstrap css & overrides */
-
-h6,
-.h6,
-h5,
-.h5,
-h4,
-.h4,
-h3,
-.h3,
-h2,
-.h2,
-h1,
-.h1 {
-    margin-top: 0;
-    margin-bottom: .5rem;
-    font-weight: 500;
-    line-height: 1.2
-}
-
-h1,
-.h1 {
-    font-size: calc(1.375rem + 1.5vw)
-}
-
-h2,
-.h2 {
-    font-size: calc(1.325rem + .9vw)
-}
-
-h3,
-.h3 {
-    font-size: calc(1.3rem + .6vw)
-}
-
-h4,
-.h4 {
-    font-size: calc(1.275rem + .3vw)
-}
-
-h5,
-.h5 {
-    font-size: 1.25rem
-}
-
-h6,
-.h6 {
-    font-size: 1rem
 }
 
 p {
     margin-top: 0;
     margin-bottom: 1rem
-}
-
-[type="search"] {
-    outline-offset: -2px;
-    -webkit-appearance: textfield
-}
-
-::-webkit-search-decoration {
-    -webkit-appearance: none
-}
-
-::-webkit-color-swatch-wrapper {
-    padding: 0
-}
-
-::-webkit-file-upload-button {
-    font: inherit;
-    -webkit-appearance: button
 }
 
 .list-unstyled {
@@ -116,20 +46,6 @@ p {
     border-radius: .25rem;
     max-width: 100%;
     height: auto
-}
-
-.figure {
-    display: inline-block
-}
-
-.figure-img {
-    margin-bottom: .5rem;
-    line-height: 1
-}
-
-.figure-caption {
-    font-size: .875em;
-    color: #767676
 }
 
 .container,
@@ -202,61 +118,9 @@ p {
     margin-left: calc(var(--bs-gutter-x) / -2)
 }
 
-.row>* {
-    -webkit-flex-shrink: 0;
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) / 2);
-    padding-left: calc(var(--bs-gutter-x) / 2);
-    margin-top: var(--bs-gutter-y)
-}
-
 .col {
     -webkit-flex: 1 0 0%;
     flex: 1 0 0%
-}
-
-.row-cols-auto>* {
-    -webkit-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: auto
-}
-
-.row-cols-1>* {
-    -webkit-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 100%
-}
-
-.row-cols-2>* {
-    -webkit-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 50%
-}
-
-.row-cols-3>* {
-    -webkit-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 33.3333333333%
-}
-
-.row-cols-4>* {
-    -webkit-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 25%
-}
-
-.row-cols-5>* {
-    -webkit-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 20%
-}
-
-.row-cols-6>* {
-    -webkit-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: 16.6666666667%
 }
 
 .col-auto {
@@ -342,41 +206,6 @@ p {
         -webkit-flex: 1 0 0%;
         flex: 1 0 0%
     }
-    .row-cols-sm-auto>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: auto
-    }
-    .row-cols-sm-1>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 100%
-    }
-    .row-cols-sm-2>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 50%
-    }
-    .row-cols-sm-3>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 33.3333333333%
-    }
-    .row-cols-sm-4>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 25%
-    }
-    .row-cols-sm-5>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 20%
-    }
-    .row-cols-sm-6>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 16.6666666667%
-    }
     .col-sm-auto {
         -webkit-flex: 0 0 auto;
         flex: 0 0 auto;
@@ -448,41 +277,6 @@ p {
     .col-md {
         -webkit-flex: 1 0 0%;
         flex: 1 0 0%
-    }
-    .row-cols-md-auto>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: auto
-    }
-    .row-cols-md-1>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 100%
-    }
-    .row-cols-md-2>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 50%
-    }
-    .row-cols-md-3>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 33.3333333333%
-    }
-    .row-cols-md-4>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 25%
-    }
-    .row-cols-md-5>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 20%
-    }
-    .row-cols-md-6>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 16.6666666667%
     }
     .col-md-auto {
         -webkit-flex: 0 0 auto;
@@ -556,41 +350,6 @@ p {
         -webkit-flex: 1 0 0%;
         flex: 1 0 0%
     }
-    .row-cols-lg-auto>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: auto
-    }
-    .row-cols-lg-1>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 100%
-    }
-    .row-cols-lg-2>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 50%
-    }
-    .row-cols-lg-3>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 33.3333333333%
-    }
-    .row-cols-lg-4>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 25%
-    }
-    .row-cols-lg-5>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 20%
-    }
-    .row-cols-lg-6>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 16.6666666667%
-    }
     .col-lg-auto {
         -webkit-flex: 0 0 auto;
         flex: 0 0 auto;
@@ -662,41 +421,6 @@ p {
     .col-xl {
         -webkit-flex: 1 0 0%;
         flex: 1 0 0%
-    }
-    .row-cols-xl-auto>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: auto
-    }
-    .row-cols-xl-1>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 100%
-    }
-    .row-cols-xl-2>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 50%
-    }
-    .row-cols-xl-3>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 33.3333333333%
-    }
-    .row-cols-xl-4>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 25%
-    }
-    .row-cols-xl-5>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 20%
-    }
-    .row-cols-xl-6>* {
-        -webkit-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 16.6666666667%
     }
     .col-xl-auto {
         -webkit-flex: 0 0 auto;
@@ -881,32 +605,6 @@ p {
     flex-grow: 1;
     -webkit-align-items: center;
     align-items: center
-}
-
-.navbar-toggler {
-    padding: .25rem .75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    transition: box-shadow 0.15s ease-in-out
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .navbar-toggler {
-        transition: none
-    }
-}
-
-.navbar-toggler:hover {
-    text-decoration: none
-}
-
-.navbar-toggler:focus {
-    text-decoration: none;
-    outline: 0;
-    box-shadow: 0 0 0 .25rem
 }
 
 .navbar-toggler-icon {
@@ -1152,11 +850,6 @@ p {
     border-bottom: 0
 }
 
-.card-header-pills {
-    margin-right: -.5rem;
-    margin-left: -.5rem
-}
-
 .card-img-overlay {
     position: absolute;
     top: 0;
@@ -1333,27 +1026,6 @@ p {
     overflow: scroll !important
 }
 
-.position-static {
-    position: static !important
-}
-
-.position-relative {
-    position: relative !important
-}
-
-.position-absolute {
-    position: absolute !important
-}
-
-.position-fixed {
-    position: fixed !important
-}
-
-.position-sticky {
-    position: -webkit-sticky !important;
-    position: sticky !important
-}
-
 .flex-fill {
     -webkit-flex: 1 1 auto !important;
     flex: 1 1 auto !important
@@ -1527,34 +1199,6 @@ p {
 .align-self-stretch {
     -webkit-align-self: stretch !important;
     align-self: stretch !important
-}
-
-.m-0 {
-    margin: 0 !important
-}
-
-.m-1 {
-    margin: .25rem !important
-}
-
-.m-2 {
-    margin: .5rem !important
-}
-
-.m-3 {
-    margin: 1rem !important
-}
-
-.m-4 {
-    margin: 1.5rem !important
-}
-
-.m-5 {
-    margin: 3rem !important
-}
-
-.m-auto {
-    margin: auto !important
 }
 
 .mx-0 {
@@ -1985,14 +1629,6 @@ a.theme-link:hover {
     color: #456E9C
 }
 
-.overview-section .item-icon .fa-less {
-    color: #324B7C
-}
-
-.overview-section .item-title {
-    font-size: 1rem
-}
-
 .project-card {
     border-radius: 0;
     border: 1px solid rgba(1, 1, 1, 1.788);
@@ -2197,7 +1833,6 @@ a.theme-link:hover {
 }
 
 .blog-post .blockquote {
-    font-family: Georgia, "Times New Roman", Times, serif;
     border-left: 2px solid #292929;
     font-size: 1.5rem
 }
