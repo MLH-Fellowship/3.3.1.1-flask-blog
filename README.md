@@ -8,9 +8,6 @@
 ## Introduction
 Minimal Flask template to get started on your blog application for MLH Fellowship Production Engineering track.
 
-## Visuals
-<img src="./app/static/img/tut1.png" alt="Image 1" width=700> <br/>
-
 ## Prerequisites and Requirements
 Flask version 2.0.1   
 Python version 3.X
